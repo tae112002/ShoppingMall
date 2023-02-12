@@ -1,0 +1,135 @@
+.orderWrap {
+  width: 860px;
+  margin: 0 auto;
+  padding: 60px 36px 70px;
+}
+.orderWrap h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.orderWrap form {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-column-gap: 10px;
+}
+.Info-box,
+.agreeBox {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+}
+.Info-box input,
+.Info-box select {
+  font-family: inherit;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+  padding: 12px;
+}
+.infoTitle {
+  margin-bottom: 12px;
+}
+.infoTitle span {
+  font-size: 20px;
+}
+.orderProdInfo {
+  display: flex;
+  margin-bottom: 10px;
+}
+.orderProdInfo:last-child {
+  margin-bottom: 0;
+}
+.orderProdInfo img {
+  margin-right: 10px;
+  width: 70px;
+  height: 70px;
+}
+.orderProdInfo .prodCount {
+  color: #666666;
+  font-size: 14px;
+}
+.orderProdInfo .prodPrice {
+  font-weight: bold;
+}
+.orderer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.orderer-top input {
+  width: 49%;
+}
+.orderer-bottom input {
+  width: 100%;
+}
+.addressInput {
+  position: relative;
+}
+.addressInput input[type="text"] {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.addressInput .findPostcode {
+  position: absolute;
+  padding: 8px 12px;
+  top: 54px;
+  background-color: #ffc107;
+  right: 0px;
+  cursor: pointer;
+}
+
+.order-top,
+.order-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.order-top .orderTop-left {
+  color: #666666;
+}
+.order-top .orderTop-right {
+  text-align: end;
+}
+.orderTop-right p,
+.orderTop-left p {
+  margin-bottom: 5px;
+}
+.order-divLine {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #666666;
+}
+.order-bottom .orderBottom-right {
+  text-align: end;
+  font-weight: bold;
+  color: blue;
+}
+.Info-box select {
+  margin: 5px 0;
+  width: 100%;
+}
+.Info-box .payInput input {
+  width: 100%;
+}
+.agreeTtem {
+  margin-bottom: 5px;
+}
+.agreeTtem input {
+  margin: 0 5px;
+}
+.Info-box button {
+  margin-top: 5px;
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+  width: 95%;
+  padding: 12px;
+}
+.Info-box button:hover {
+  opacity: 0.7;
+}
+
+.setFlex {
+  display: flex;
+  justify-content: space-between;
+}

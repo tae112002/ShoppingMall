@@ -1,0 +1,107 @@
+.qna-table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.qna-table-wrap tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.qna-table-wrap th,
+td {
+  height: 70px;
+  text-align: center;
+}
+
+.qna-table-wrap td {
+  font-size: 14px;
+}
+.qna-table-wrap td:nth-child(1) {
+  width: 15%;
+}
+.qna-table-wrap td:nth-child(2) {
+  width: 15%;
+}
+.qna-table-wrap td:nth-child(3) {
+  width: 40%;
+}
+.qna-table-wrap td:nth-child(4) {
+  width: 15%;
+}
+.qna-table-wrap td:nth-child(5) {
+  width: 15%;
+}
+
+.qna-table-wrap td:nth-child(3) div:first-child {
+  display: flex;
+  text-align: left;
+  line-height: middle;
+}
+
+.qna-table-wrap td:nth-child(3) span {
+  margin-right: 10px;
+}
+
+.qna-table-wrap p {
+  font-size: 14px;
+}
+.qna-img-wrap {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.qna-img-wrap img {
+  width: 100%;
+  height: 100%;
+}
+
+.bottom-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid black;
+  outline: none;
+  font-family: inherit;
+}
+
+form button {
+  color: #fff;
+  background-color: #000;
+  font-family: inherit;
+  padding: 11px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.pagination {
+  margin-top: 15px;
+}
+
+ul.pagination li {
+  display: inline-block;
+}
+
+ul.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+ul.pagination li.active a {
+  background-color: #c1c0b6;
+  color: #000;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}

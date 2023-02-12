@@ -1,0 +1,72 @@
+.admin-container {
+  width: 100%;
+  padding: 30px;
+}
+
+.admin-table-wrap {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.admin-table-wrap button {
+  padding: 8px;
+  border-radius: 3px;
+  margin: 10px 10px 10px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-table-wrap select,
+input {
+  padding: 8px;
+  outline: none;
+  border: 1px solid black;
+  font-family: inherit;
+  margin-right: 5px;
+}
+
+.product-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.product-table tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.product-table th:first-child {
+  width: 5%;
+}
+.product-table th:nth-child(2) {
+  width: 5%;
+}
+.product-table th:nth-child(3) {
+  width: 10%;
+}
+
+.product-table th:nth-child(5),
+.product-table th:nth-child(6),
+.product-table th:nth-child(7),
+.product-table th:nth-child(8) {
+  width: 7%;
+}
+.product-table th:nth-child(9) {
+  width: 15%;
+}
+.product-table th:last-child {
+  width: 10%;
+}
+.product-table td {
+  height: 100px;
+}
+.product-table img {
+  width: 80px;
+  height: 80px;
+}

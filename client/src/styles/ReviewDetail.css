@@ -1,0 +1,27 @@
+.title-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-content {
+  width: 100%;
+  padding: 50px 0;
+  border-top: 1px solid #c1c0b6;
+  border-bottom: 1px solid #c1c0b6;
+}
+
+.review-box-wrap {
+  width: 100%;
+  margin-top: 30px;
+}
+.review-grid {
+  display: flex;
+}
+
+.review-img-box {
+  width: 300px;
+}
+
+.review-img-box img {
+  width: 100%;
+}

@@ -1,0 +1,146 @@
+.product {
+  display: flex;
+  margin: 0 auto;
+}
+
+.product img {
+  width: 600px;
+  height: 600px;
+}
+
+.product-title-wrap {
+  width: 50%;
+  padding: 50px;
+}
+
+.product-title-wrap h3 {
+  font-size: 30px;
+}
+
+.product-title-wrap .price-value {
+  color: #c67c00;
+  font-size: 20px;
+}
+.product-title-wrap .product-soldout {
+  color: #b00020;
+  font-size: 20px;
+}
+
+.product-title-wrap p {
+  font-size: 14px;
+  margin: 20px 0 20px 0;
+}
+
+.product-title-wrap span {
+  font-size: 14px;
+  margin: 20px 50px 20px 0;
+}
+
+.product-price {
+  border-top: 1px solid #ccc;
+}
+.product-price-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-stock span {
+  display: inline-block;
+  text-align: center;
+  line-height: 37px;
+  width: 37px;
+  height: 37px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+.add-stock a {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  line-height: 37px;
+  font-size: 20px;
+  width: 37px;
+  height: 37px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.buy-btn {
+  border: 1px solid #000;
+  padding: 13px 20px;
+  border-radius: 3px;
+  width: 150px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.buy-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+
+.cart-btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 13px 20px;
+  width: 150px;
+  cursor: pointer;
+  margin: 10px 0 0 10px;
+}
+
+.cart-btn:hover {
+  background-color: #222222;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.product-detail-container {
+  width: 800px;
+  margin: 20px auto;
+}
+.product-detail-subimg {
+  width: 500px;
+  margin: 20px auto;
+}
+.product-detail-content img {
+  width: 100%;
+}
+.product-detail-content span {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.delivery-table {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.delivery-table th {
+  height: 50px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.delivery-table td {
+  height: 25px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.delivery-table td:first-child {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.delivery-table td:last-child {
+  border-left: 2px solid black;
+  width: 90%;
+  padding-left: 10px;
+}

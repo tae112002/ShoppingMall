@@ -1,0 +1,139 @@
+.cartWrap {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 60px 36px 70px;
+}
+.cartWrap h1 {
+  padding-bottom: 60px;
+}
+.cart-box {
+  width: 100%;
+}
+.tb {
+  width: 100%;
+}
+.tb-title {
+  width: 100%;
+  padding: 16px 0;
+  display: flex;
+}
+.tb-title .name {
+  width: 46.5%;
+  text-align: start;
+}
+.tb-title .qty {
+  width: 18%;
+  text-align: center;
+}
+.tb-title .price {
+  width: 15.5%;
+  text-align: center;
+}
+.tb-title .deliveryPrice {
+  width: 20%;
+  text-align: center;
+}
+.tb-main {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  display: flex;
+}
+.tb-main-left {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.tb-delivery-group {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.delivery-freeInfo,
+.delivery-priceInfo {
+  text-align: center;
+}
+.tb-cartInfo {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid #aaa;
+}
+.tb-cartInfo:last-child {
+  border-bottom: none;
+}
+.product-info {
+  display: flex;
+  width: 58.5%;
+}
+.product-info img {
+  width: 70px;
+  height: 70px;
+}
+.product-info .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  justify-content: center;
+}
+.add-stock {
+  width: 23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartPrice {
+  display: flex;
+  width: 19.5%;
+  align-items: center;
+  justify-content: center;
+}
+.tb-bottom {
+  width: 50%;
+  float: right;
+}
+.cartInfo-bottom {
+  border-bottom: 1px solid #aaa;
+  padding: 20px 0;
+}
+.bottom-box {
+  display: flex;
+  text-align: end;
+}
+.bottom-box:first-child {
+  margin-bottom: 20px;
+}
+.bottom-box .title,
+.bottom-box .content {
+  width: 50%;
+}
+.price-total {
+  padding: 20px 0;
+}
+.total {
+  font-weight: bold;
+}
+
+.cartBtn {
+  margin-top: 40px;
+  width: 100%;
+  text-align: end;
+}
+.cartBtn button {
+  padding: 12px 32px;
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+}
+.cartBtn button:hover {
+  opacity: 0.7;
+}
+
+.noncart-box {
+  width: 100%;
+}
+.noncart-box p {
+  text-align: center;
+  width: 100%;
+  padding: 100px 0;
+}

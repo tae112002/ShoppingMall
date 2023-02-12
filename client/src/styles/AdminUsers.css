@@ -1,0 +1,36 @@
+.admin-container {
+  width: 100%;
+  padding: 30px;
+}
+
+.admin-table-wrap {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.admin-table-wrap button {
+  padding: 8px 8px;
+  border-radius: 3px;
+  margin: 10px 10px 10px 0;
+}
+
+.admin-table-wrap select,
+.admin-table-wrap input {
+  border-radius: 3px;
+  border: 1px solid #bbb;
+  padding: 8px;
+  font-family: inherit;
+  margin-right: 5px;
+}
+
+.admin-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px auto;
+}
+.admin-table tr {
+  border-bottom: 1px solid #ccc;
+}

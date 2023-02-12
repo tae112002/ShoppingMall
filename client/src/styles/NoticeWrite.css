@@ -1,0 +1,19 @@
+.notice-write-title-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.notice-write-title-wrap span {
+  padding: 5px;
+}
+
+.notice-write-title-wrap input {
+  padding: 12px 12px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+.notice-write-title-wrap input[type="file"] {
+  border: 1px solid transparent;
+}

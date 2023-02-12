@@ -1,0 +1,32 @@
+.notfound-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-center {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.notfound-title {
+  font-size: 150px;
+}
+.notfound-contents {
+  font-size: 40px;
+}
+.text-danger {
+  color: red;
+}
+.lead {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.btn-primary {
+  margin: 0 auto;
+  width: 100px;
+  border-radius: 3px;
+  padding: 12px;
+  background-color: blue;
+  color: white;
+}

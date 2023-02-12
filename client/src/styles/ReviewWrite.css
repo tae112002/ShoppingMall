@@ -1,0 +1,89 @@
+.select-product {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.select-product span {
+  padding: 5px;
+}
+.select-product select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.review-write-title-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.review-write-title-wrap span {
+  padding: 5px;
+}
+.review-write-title-wrap input {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.write-content-box {
+  margin: 20px 0;
+}
+.write-contents {
+  resize: none;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding: 12px 12px;
+  height: 400px;
+}
+
+.review-btn-wrap {
+  margin-bottom: 30px;
+}
+
+.file-wrap:hover {
+  opacity: 0.7;
+}
+
+.select-file {
+  display: inline-flex;
+  color: white;
+  font-size: 20px;
+}
+
+.review-btn-wrap {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-btn-wrap button {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.list-btn {
+  background-color: white;
+}
+
+.list-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.right-wrap select {
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 12px;
+}
+
+.save-btn {
+  background-color: black;
+  padding: 12px;
+  color: white;
+}
+.save-btn:hover {
+  opacity: 0.7;
+}

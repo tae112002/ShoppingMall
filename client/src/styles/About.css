@@ -1,0 +1,26 @@
+.section {
+  padding-right: 220px;
+  padding-left: 220px;
+  text-align: center;
+}
+.section h1 {
+  margin: 30px 0;
+}
+.img-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.img-box img {
+  margin: 0 auto;
+}
+.div-line {
+  margin: 30px auto;
+  width: 50px;
+  border-bottom: 1px solid black;
+}
+.items {
+  margin: 20px 50px;
+}
+.item-box {
+  margin-bottom: 10px;
+}

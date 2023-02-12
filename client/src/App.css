@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #f4f3e8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+input,
+button,
+textarea,
+select {
+  background-color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+ul,
+li {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+}
+/* 게시판 리스트 */
+.container {
+  width: 1200px;
+  margin: 60px auto;
+}
+
+.title-container {
+  margin-bottom: 30px;
+}
+
+.title-container h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+/* 게시판 글쓰기 */
+.write-container {
+  width: 800px;
+  margin: 60px auto;
+}
+.board-container {
+  width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+}

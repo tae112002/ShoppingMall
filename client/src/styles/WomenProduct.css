@@ -1,0 +1,36 @@
+.product-container {
+  padding: 20px 0 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+.product-list a {
+  margin-right: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.product-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33333%);
+  row-gap: 20px;
+  margin: 50px auto;
+}
+
+.product-box {
+  width: 100%;
+  padding: 10px;
+}
+
+.product-box img {
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+}
+.product-box p {
+  text-align: center;
+}
+
+.click {
+  font-weight: bold;
+}

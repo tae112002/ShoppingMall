@@ -1,0 +1,48 @@
+.qna-table-wrap p {
+  font-size: 14px;
+}
+.qna-img-wrap {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.qna-img-wrap img {
+  width: 100%;
+}
+.admin-container {
+  width: 100%;
+  padding: 30px;
+}
+
+.admin-table-wrap {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.admin-table-wrap button {
+  padding: 8px;
+  border-radius: 3px;
+  margin: 10px 10px 10px 0;
+}
+
+.admin-table-wrap select,
+input {
+  padding: 7px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  font-family: inherit;
+  margin-right: 5px;
+}
+
+.notice-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.notice-table tr {
+  border-bottom: 1px solid #ccc;
+}

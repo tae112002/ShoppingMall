@@ -1,0 +1,146 @@
+.write-top {
+  width: 100%;
+  display: flex;
+}
+
+.write-caregory {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.write-caregory span {
+  padding: 5px;
+}
+
+.write-caregory select {
+  width: 100%;
+  padding: 14px 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.write-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 70%;
+}
+.write-title span {
+  padding: 5px;
+}
+
+.write-title input[type="text"],
+.select-product input[type="text"] {
+  font-family: inherit;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+  background-color: transparent;
+  font-family: inherit;
+  width: 300px;
+  border: 0;
+}
+
+.product-search-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+.product-search-container input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 80%;
+}
+
+.product-search-container input[type="button"] {
+  border: 1px solid #c1c0b6;
+  border-radius: 3px;
+  width: 10%;
+  background-color: #c1c0b6;
+}
+
+.product-search-container input[type="button"]:hover {
+  color: #000;
+  background-color: #edf1f1;
+}
+
+.search-container {
+  z-index: 3;
+  width: 80%;
+  background-color: #fff;
+  position: absolute;
+  top: 35px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+}
+.search-container ul li {
+  width: 100%;
+  font-size: 14px;
+  z-index: 4;
+  letter-spacing: 2px;
+}
+.search-container ul li:hover {
+  background-color: #edf5f5;
+  cursor: pointer;
+}
+.search-data img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.write-content-box {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.write-contents {
+  background-color: transparent;
+  font-family: inherit;
+  resize: none;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding: 12px 12px;
+  height: 500px;
+}
+
+.secret-wrap {
+  margin-bottom: 20px;
+}
+.secret-wrap input {
+  margin-right: 10px;
+}
+
+.btn-wrap {
+  margin-bottom: 20px;
+}
+
+.btn-wrap button {
+  padding: 12px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.list-btn {
+  background-color: white;
+  color: #000;
+}
+
+.list-btn:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+.save-btn {
+  background-color: black;
+  color: white;
+}
+.save-btn:hover {
+  opacity: 0.7;
+}
